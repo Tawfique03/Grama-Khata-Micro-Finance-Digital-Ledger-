@@ -1,0 +1,57 @@
+# Grama Khata 2.0 - Micro Finance Digital Ledger
+
+![Grama Khata Banner](GramaKhata/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp)
+
+**Grama Khata** (Village Ledger) is a modern, offline-first Android application designed to digitize informal credit management for rural vendors and micro-finance entities. It replaces traditional paper-based bookkeeping with a secure, efficient, and user-friendly digital solution.
+
+## 🚀 Features
+
+- **Digital Ledger Management**: Track credits and debits for multiple customers with ease.
+- **Multi-Language Support**: Fully localized in **English, Hindi, Bengali, Kannada, Odia, and Telugu**.
+- **Modern Premium UI**: Sleek dark mode design with glassmorphism effects and smooth transitions.
+- **Offline First**: All data is stored locally using Room Database, ensuring reliability in areas with poor connectivity.
+- **Financial Reporting**: Gain insights into your business with daily, weekly, and monthly summaries.
+- **Voice Entry (Concept)**: Designed for quick data entry using voice commands.
+- **Backup & Security**: Built-in Android backup rules to keep your data safe.
+
+## 🛠️ Technology Stack
+
+- **Language**: Kotlin
+- **Architecture**: MVVM (Model-View-ViewModel)
+- **Database**: Room Persistence Library
+- **UI Components**: Jetpack Navigation, Material Design 3, Fragments
+- **Localization**: Dynamic Locale Switching mechanism
+- **Dependency Management**: Gradle (Kotlin DSL)
+
+## 📱 Screenshots
+
+*Screenshots and UI designs can be found in the `stitch_grama_khata_digital_ledger` directory.*
+
+## 🏁 Getting Started
+
+### Prerequisites
+
+- Android Studio Flamingo or newer
+- JDK 11+
+- Android Device/Emulator (API 26+)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Tawfique03/Grama-Khata-Micro-Finance-Digital-Ledger-.git
+   ```
+2. Open the project in **Android Studio**.
+3. Wait for Gradle sync to complete.
+4. Run the app on your device or emulator.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+*Developed with ❤️ for rural empowerment.*
