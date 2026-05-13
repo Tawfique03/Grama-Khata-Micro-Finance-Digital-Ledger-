@@ -25,7 +25,10 @@
 
 ## 📱 Screenshots
 
-*Screenshots and UI designs can be found in the `stitch_grama_khata_digital_ledger` directory.*
+<img width="540" height="1230" alt="WhatsApp Image 2026-05-11 at 2 14 51 PM (1)" src="https://github.com/user-attachments/assets/bc4c65ec-456f-4d06-83a7-029b70853d39" />
+<img width="1080" height="2460" alt="WhatsApp Image 2026-05-11 at 2 14 48 PM" src="https://github.com/user-attachments/assets/8a2db43b-009c-4f2f-bfe2-c4db15100c8b" />
+
+
 
 ## 🏁 Getting Started
 
