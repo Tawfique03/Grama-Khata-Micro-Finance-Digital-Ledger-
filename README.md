@@ -25,8 +25,8 @@
 
 ## 📱 Screenshots
 
-<img width="540" height="1230" alt="WhatsApp Image 2026-05-11 at 2 14 51 PM (1)" src="https://github.com/user-attachments/assets/bc4c65ec-456f-4d06-83a7-029b70853d39" />
-<img width="1080" height="2460" alt="WhatsApp Image 2026-05-11 at 2 14 48 PM" src="https://github.com/user-attachments/assets/8a2db43b-009c-4f2f-bfe2-c4db15100c8b" />
+<img width="240" height="550" alt="WhatsApp Image 2026-05-11 at 2 14 51 PM (1)" src="https://github.com/user-attachments/assets/bc4c65ec-456f-4d06-83a7-029b70853d39" />
+<img width="240" height="550" alt="WhatsApp Image 2026-05-11 at 2 14 48 PM" src="https://github.com/user-attachments/assets/8a2db43b-009c-4f2f-bfe2-c4db15100c8b" />
 
 
 
