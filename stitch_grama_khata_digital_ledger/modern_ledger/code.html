@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-surface-variant": "#464553",
+            "on-secondary-fixed-variant": "#2f2ebe",
+            "surface": "#fcf8ff",
+            "primary-fixed": "#e2dfff",
+            "on-primary-fixed": "#0f0069",
+            "tertiary-container": "#752c00",
+            "on-surface": "#1b1b22",
+            "inverse-on-surface": "#f3eff9",
+            "surface-bright": "#fcf8ff",
+            "error-container": "#ffdad6",
+            "surface-container-lowest": "#ffffff",
+            "on-tertiary-fixed": "#351000",
+            "surface-container-high": "#eae6f1",
+            "on-primary-fixed-variant": "#3b35a7",
+            "secondary-container": "#6063ee",
+            "background": "#fcf8ff",
+            "tertiary-fixed-dim": "#ffb694",
+            "secondary-fixed-dim": "#c0c1ff",
+            "primary-container": "#3730a3",
+            "secondary-fixed": "#e1e0ff",
+            "error": "#ba1a1a",
+            "on-secondary-container": "#fffbff",
+            "inverse-surface": "#303037",
+            "on-primary": "#ffffff",
+            "surface-container-low": "#f6f2fc",
+            "on-tertiary": "#ffffff",
+            "on-secondary-fixed": "#07006c",
+            "tertiary": "#511c00",
+            "on-tertiary-container": "#fe9562",
+            "on-error": "#ffffff",
+            "tertiary-fixed": "#ffdbcc",
+            "on-background": "#1b1b22",
+            "secondary": "#4648d4",
+            "outline-variant": "#c8c4d5",
+            "on-tertiary-fixed-variant": "#7a3003",
+            "surface-container": "#f0ecf6",
+            "surface-container-highest": "#e4e1eb",
+            "surface-dim": "#dcd8e3",
+            "surface-tint": "#544fc0",
+            "inverse-primary": "#c3c0ff",
+            "on-secondary": "#ffffff",
+            "on-error-container": "#93000a",
+            "primary-fixed-dim": "#c3c0ff",
+            "on-primary-container": "#a9a7ff",
+            "primary": "#1f108e",
+            "outline": "#777584",
+            "surface-variant": "#e4e1eb"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "gutter": "16px",
+            "lg": "24px",
+            "xs": "4px",
+            "sm": "12px",
+            "md": "16px",
+            "base": "8px",
+            "xl": "32px",
+            "margin-mobile": "20px"
+          },
+          "fontFamily": {
+            "label-sm": ["Public Sans"],
+            "body-md": ["Public Sans"],
+            "headline-md": ["Public Sans"],
+            "body-lg": ["Public Sans"],
+            "display": ["Public Sans"],
+            "headline-lg": ["Public Sans"],
+            "label-lg": ["Public Sans"]
+          },
+          "fontSize": {
+            "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+            "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+            "headline-md": ["20px", {"lineHeight": "28px", "fontWeight": "600"}],
+            "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+            "display": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+            "headline-lg": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+            "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600"}]
+          }
+        },
+      },
+    }
+  </script>
+<style>
+    body {
+      background-color: #fcf8ff;
+      font-family: 'Public Sans', sans-serif;
+    }
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background min-h-screen">
+<!-- TopAppBar Shell -->
+<header class="bg-surface/80 backdrop-blur-md w-full top-0 sticky z-40">
+<div class="flex justify-between items-center px-margin-mobile py-base w-full max-w-7xl mx-auto">
+<div class="flex items-center gap-base">
+<div class="w-10 h-10 rounded-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover" data-alt="A professional headshot of a shopkeeper in a clean, brightly lit environment. The lighting is soft and natural, emphasizing trust and friendliness. The background is slightly blurred with hints of a modern retail space, maintaining a high-key, minimalist aesthetic consistent with the light-mode UI. The color palette features warm skin tones and soft neutrals." src="https://lh3.googleusercontent.com/aida-public/AB6AXuClAfzzV0dfLBO2NQtsrzMSqv631VKYPBd8-09LllipJhBwIRwB7PV4XiBLPgNOfnLevzevLY5f8R4vdLoDg6qvG_jTnY4AThQOx3u33Kr7iXT3gxyA0V1S0wxsvD8l9jAnPIsRK7CtSvFXDMWXq8aOO1ECaVuIhANJn6k5zkvWp74Jn35OrrDcHh_33Hm8PH702ug_NaOdseu26rIOSo8s6u0h3Y096zjO9uaRUlJ94e_UwhF_i64xXA0PhxBucBudYgM0fkZ5sTNv"/>
+</div>
+<span class="text-headline-md font-headline-md text-primary">Grama-Khata</span>
+</div>
+<button class="material-symbols-outlined text-on-surface-variant hover:opacity-80 transition-opacity active:scale-95 duration-200">
+        notifications
+      </button>
+</div>
+</header>
+<main class="max-w-7xl mx-auto px-margin-mobile pb-32">
+<!-- Hero Customer Card -->
+<section class="mt-lg">
+<div class="relative overflow-hidden rounded-xl bg-gradient-to-br from-primary to-secondary p-lg shadow-[0px_8px_20px_rgba(31,16,142,0.12)]">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-md relative z-10">
+<div class="flex items-center gap-md">
+<div class="w-20 h-20 md:w-24 md:h-24 rounded-full border-4 border-white/20 overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Close up portrait of a satisfied customer, a middle-aged man with a warm smile, against a soft-focus garden background. The lighting is bright and cheerful, reflecting a professional and approachable brand identity. The overall image quality is premium and sharp, fitting the modern fintech aesthetic with a palette of soft natural colors." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA7UjkmtF2FEqdAuxqy_IuBJt5-a1WUas9r1v83mtQbYFDHrMpBuBXfREyEKkaoUYK_6dih5JGjEch1mbLzj387mWXE03Wcx4dmJSdubJCfqAaQgz833mAkkSOHnB_tMAR6k8SN_nK7nREy-tYJt9C5JuWDD-D_XbeOLh7JHiz_Fd8XCJGXrXK3I3AVYo2_rIbM7YCDEMFrWiQ2UWbzfWjkTnS2CBzuid9oan_QVoaVjohVGokd6jHAzW01TIyVyCOZjybWzOcX0f38"/>
+</div>
+<div>
+<h1 class="text-headline-lg font-display text-white">Raghavendra Rao</h1>
+<p class="text-label-lg font-label-lg text-primary-fixed/80">Customer since Oct 2023</p>
+<div class="mt-xs inline-flex items-center px-2 py-0.5 rounded-full bg-tertiary-fixed/20 text-tertiary-fixed text-label-sm font-label-sm">
+                Frequent Buyer
+              </div>
+</div>
+</div>
+<div class="bg-white/10 backdrop-blur-sm rounded-xl p-md border border-white/10">
+<p class="text-label-sm font-label-sm text-primary-fixed uppercase tracking-wider">Total Balance Due</p>
+<p class="text-display font-display text-white mt-xs">₹ 4,250.00</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Quick Actions -->
+<section class="mt-xl flex flex-col sm:flex-row gap-md">
+<button class="flex-1 h-14 flex items-center justify-center gap-base rounded-xl bg-primary text-on-primary font-label-lg shadow-[0px_8px_20px_rgba(31,16,142,0.15)] active:scale-95 transition-transform">
+<span class="material-symbols-outlined">payments</span>
+        Record Payment
+      </button>
+<button class="flex-1 h-14 flex items-center justify-center gap-base rounded-xl border-2 border-on-tertiary-container/30 text-on-tertiary-fixed-variant font-label-lg bg-tertiary-fixed/10 active:scale-95 transition-transform">
+<span class="material-symbols-outlined">add_card</span>
+        Give Credit
+      </button>
+</section>
+<!-- Transaction Ledger -->
+<section class="mt-xl">
+<div class="flex items-center justify-between mb-md">
+<h2 class="text-headline-md font-headline-md text-on-surface">Ledger History</h2>
+<button class="text-label-lg font-label-lg text-secondary flex items-center gap-xs">
+          Filter <span class="material-symbols-outlined text-[18px]">filter_list</span>
+</button>
+</div>
+<div class="space-y-sm">
+<!-- Date Group -->
+<div class="py-xs">
+<p class="text-label-sm font-label-sm text-outline uppercase tracking-widest">Today, 24 Oct</p>
+</div>
+<!-- Transaction Card 1 -->
+<div class="bg-surface-container-lowest p-md rounded-xl shadow-[0px_2px_10px_rgba(0,0,0,0.04)] flex items-center justify-between">
+<div class="flex items-center gap-md">
+<div class="w-10 h-10 rounded-full bg-error-container/20 flex items-center justify-center text-error">
+<span class="material-symbols-outlined">remove_circle_outline</span>
+</div>
+<div>
+<p class="text-label-lg font-label-lg text-on-surface">Grocery Credit</p>
+<p class="text-label-sm font-label-sm text-outline">04:30 PM • Ref: #8921</p>
+</div>
+</div>
+<div class="text-right">
+<p class="text-body-lg font-headline-md text-error">₹ 850.00</p>
+<p class="text-label-sm font-label-sm text-outline">Bal: ₹ 4,250.00</p>
+</div>
+</div>
+<!-- Transaction Card 2 -->
+<div class="bg-surface-container-lowest p-md rounded-xl shadow-[0px_2px_10px_rgba(0,0,0,0.04)] flex items-center justify-between">
+<div class="flex items-center gap-md">
+<div class="w-10 h-10 rounded-full bg-secondary-container/20 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined">check_circle</span>
+</div>
+<div>
+<p class="text-label-lg font-label-lg text-on-surface">Partial Cash Payment</p>
+<p class="text-label-sm font-label-sm text-outline">10:15 AM • UPI Transfer</p>
+</div>
+</div>
+<div class="text-right">
+<p class="text-body-lg font-headline-md text-secondary">₹ 1,500.00</p>
+<p class="text-label-sm font-label-sm text-outline">Bal: ₹ 3,400.00</p>
+</div>
+</div>
+<!-- Date Group -->
+<div class="py-xs mt-base">
+<p class="text-label-sm font-label-sm text-outline uppercase tracking-widest">Yesterday, 23 Oct</p>
+</div>
+<!-- Transaction Card 3 -->
+<div class="bg-surface-container-lowest p-md rounded-xl shadow-[0px_2px_10px_rgba(0,0,0,0.04)] flex items-center justify-between">
+<div class="flex items-center gap-md">
+<div class="w-10 h-10 rounded-full bg-error-container/20 flex items-center justify-center text-error">
+<span class="material-symbols-outlined">remove_circle_outline</span>
+</div>
+<div>
+<p class="text-label-lg font-label-lg text-on-surface">Household Supplies</p>
+<p class="text-label-sm font-label-sm text-outline">06:45 PM • Ref: #8845</p>
+</div>
+</div>
+<div class="text-right">
+<p class="text-body-lg font-headline-md text-error">₹ 1,200.00</p>
+<p class="text-label-sm font-label-sm text-outline">Bal: ₹ 4,900.00</p>
+</div>
+</div>
+<!-- Transaction Card 4 -->
+<div class="bg-surface-container-lowest p-md rounded-xl shadow-[0px_2px_10px_rgba(0,0,0,0.04)] flex items-center justify-between">
+<div class="flex items-center gap-md">
+<div class="w-10 h-10 rounded-full bg-error-container/20 flex items-center justify-center text-error">
+<span class="material-symbols-outlined">remove_circle_outline</span>
+</div>
+<div>
+<p class="text-label-lg font-label-lg text-on-surface">Dairy Products</p>
+<p class="text-label-sm font-label-sm text-outline">08:00 AM • Ref: #8812</p>
+</div>
+</div>
+<div class="text-right">
+<p class="text-body-lg font-headline-md text-error">₹ 450.00</p>
+<p class="text-label-sm font-label-sm text-outline">Bal: ₹ 3,700.00</p>
+</div>
+</div>
+</div>
+<!-- View All Button -->
+<button class="w-full mt-lg py-md text-label-lg font-label-lg text-primary border border-primary-fixed rounded-xl hover:bg-primary-fixed/20 transition-colors">
+        Download PDF Statement
+      </button>
+</section>
+<!-- Notes/Info Bento Section -->
+<section class="mt-xl grid grid-cols-1 md:grid-cols-2 gap-md">
+<div class="bg-surface-container-low p-md rounded-xl">
+<h3 class="text-label-lg font-label-lg text-on-surface flex items-center gap-xs mb-sm">
+<span class="material-symbols-outlined text-[20px]">sticky_note_2</span>
+          Customer Notes
+        </h3>
+<p class="text-body-md font-body-md text-on-surface-variant italic">
+          "Prefers evening deliveries. Usually clears balance by 5th of every month."
+        </p>
+</div>
+<div class="bg-surface-container-low p-md rounded-xl flex items-center justify-between">
+<div>
+<h3 class="text-label-lg font-label-lg text-on-surface mb-xs">Reminder Set</h3>
+<p class="text-label-sm font-label-sm text-outline">Next: Oct 30, 2024</p>
+</div>
+<div class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">
+          notifications_active
+        </div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar Shell -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-center px-base pb-6 pt-2 bg-surface shadow-[0px_-2px_10px_rgba(0,0,0,0.04)] z-50 rounded-t-xl">
+<a class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:bg-surface-container-high transition-colors active:scale-90 duration-150" href="#">
+<span class="material-symbols-outlined">home</span>
+<span class="text-label-sm font-label-sm mt-1">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-full px-4 py-1 active:scale-90 transition-transform duration-150" href="#">
+<span class="material-symbols-outlined">group</span>
+<span class="text-label-sm font-label-sm">Customers</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:bg-surface-container-high transition-colors active:scale-90 duration-150" href="#">
+<span class="material-symbols-outlined">add_circle</span>
+<span class="text-label-sm font-label-sm mt-1">Add</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:bg-surface-container-high transition-colors active:scale-90 duration-150" href="#">
+<span class="material-symbols-outlined">analytics</span>
+<span class="text-label-sm font-label-sm mt-1">Reports</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:bg-surface-container-high transition-colors active:scale-90 duration-150" href="#">
+<span class="material-symbols-outlined">settings</span>
+<span class="text-label-sm font-label-sm mt-1">Settings</span>
+</a>
+</nav>
+</body></html>

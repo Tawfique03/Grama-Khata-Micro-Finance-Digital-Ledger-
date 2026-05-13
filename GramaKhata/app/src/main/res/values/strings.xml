@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Grama Khata</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_customers">Customers</string>
+    <string name="nav_reports">Reports</string>
+    <string name="nav_settings">Settings</string>
+    
+    <!-- Dashboard -->
+    <string name="total_outstanding">Total Outstanding</string>
+    <string name="todays_collection">Today\'s Collection</string>
+    <string name="active_customers">Active Customers</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="add_customer">Add Customer</string>
+    <string name="view_reports">View Reports</string>
+    <string name="recent_customers">Recent Customers</string>
+    <string name="view_all">View All</string>
+    
+    <!-- Ledger -->
+    <string name="net_due">Net Due</string>
+    <string name="recent_transactions">Recent Transactions</string>
+    <string name="add_transaction">Add Transaction</string>
+    <string name="remind">Remind</string>
+    <string name="pdf">PDF</string>
+    
+    <!-- Settings -->
+    <string name="profile_settings">Profile Settings</string>
+    <string name="backup_restore">Backup &amp; Restore</string>
+    <string name="language">Language</string>
+</resources>

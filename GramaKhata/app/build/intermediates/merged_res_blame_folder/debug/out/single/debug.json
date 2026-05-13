@@ -1,0 +1,186 @@
+[
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\drawable_bg_card_surface.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\drawable\\bg_card_surface.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\drawable_bg_gradient_primary.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\drawable\\bg_gradient_primary.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\layout_dialog_add_customer.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\layout\\dialog_add_customer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.gramakhata.app-merged_res-52:/layout_fragment_ledger.xml.flat",
+        "source": "com.gramakhata.app-main-54:/layout/fragment_ledger.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\drawable_bg_btn_white.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\drawable\\bg_btn_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\menu_menu_bottom_nav.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\menu\\menu_bottom_nav.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\layout_item_transaction.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\layout\\item_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\layout_fragment_dashboard.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\drawable_bg_search_field.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\drawable\\bg_search_field.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\drawable_bg_pill_success.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\drawable\\bg_pill_success.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\drawable_bg_btn_glass.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\drawable\\bg_btn_glass.xml"
+    },
+    {
+        "merged": "com.gramakhata.app-merged_res-52:/layout_fragment_dashboard.xml.flat",
+        "source": "com.gramakhata.app-main-54:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\drawable_bg_pill_error.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\drawable\\bg_pill_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\layout_dialog_add_transaction.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\layout\\dialog_add_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\layout_fragment_ledger.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\layout\\fragment_ledger.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\drawable_divider_line.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\drawable\\divider_line.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\layout_fragment_customers.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\layout\\fragment_customers.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\layout_fragment_settings.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\drawable_ic_person.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\drawable\\ic_person.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\layout_item_customer.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\layout\\item_customer.xml"
+    },
+    {
+        "merged": "com.gramakhata.app-merged_res-52:/layout_fragment_reports.xml.flat",
+        "source": "com.gramakhata.app-main-54:/layout/fragment_reports.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\drawable_ic_people.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\drawable\\ic_people.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\drawable_ic_reports.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\drawable\\ic_reports.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\layout_fragment_reports.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\layout\\fragment_reports.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\drawable_bg_btn_primary.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\drawable\\bg_btn_primary.xml"
+    },
+    {
+        "merged": "com.gramakhata.app-merged_res-52:/layout_fragment_settings.xml.flat",
+        "source": "com.gramakhata.app-main-54:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\drawable_bg_avatar_circle.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\drawable\\bg_avatar_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\drawable_ic_settings.xml.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\drawable\\ic_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-merged_res-52:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\mipmap-hdpi\\ic_launcher.webp"
+    }
+]

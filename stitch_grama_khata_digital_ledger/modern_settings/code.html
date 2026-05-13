@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "inverse-primary": "#c3c0ff",
+                    "error": "#ba1a1a",
+                    "surface-container-lowest": "#ffffff",
+                    "secondary": "#4648d4",
+                    "tertiary-fixed-dim": "#ffb694",
+                    "primary": "#1f108e",
+                    "on-error-container": "#93000a",
+                    "surface": "#fcf8ff",
+                    "outline": "#777584",
+                    "surface-bright": "#fcf8ff",
+                    "on-tertiary-fixed-variant": "#7a3003",
+                    "surface-tint": "#544fc0",
+                    "on-surface-variant": "#464553",
+                    "surface-container-highest": "#e4e1eb",
+                    "surface-container-low": "#f6f2fc",
+                    "surface-dim": "#dcd8e3",
+                    "on-secondary-fixed-variant": "#2f2ebe",
+                    "on-secondary": "#ffffff",
+                    "on-secondary-container": "#fffbff",
+                    "on-secondary-fixed": "#07006c",
+                    "on-primary-container": "#a9a7ff",
+                    "inverse-surface": "#303037",
+                    "secondary-fixed-dim": "#c0c1ff",
+                    "tertiary-container": "#752c00",
+                    "on-primary-fixed-variant": "#3b35a7",
+                    "on-tertiary-container": "#fe9562",
+                    "tertiary": "#511c00",
+                    "surface-variant": "#e4e1eb",
+                    "on-surface": "#1b1b22",
+                    "secondary-container": "#6063ee",
+                    "on-tertiary": "#ffffff",
+                    "primary-fixed": "#e2dfff",
+                    "inverse-on-surface": "#f3eff9",
+                    "primary-container": "#3730a3",
+                    "tertiary-fixed": "#ffdbcc",
+                    "surface-container-high": "#eae6f1",
+                    "outline-variant": "#c8c4d5",
+                    "primary-fixed-dim": "#c3c0ff",
+                    "on-primary": "#ffffff",
+                    "error-container": "#ffdad6",
+                    "background": "#fcf8ff",
+                    "on-tertiary-fixed": "#351000",
+                    "surface-container": "#f0ecf6",
+                    "secondary-fixed": "#e1e0ff",
+                    "on-background": "#1b1b22",
+                    "on-primary-fixed": "#0f0069",
+                    "on-error": "#ffffff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "xl": "32px",
+                    "md": "16px",
+                    "margin-mobile": "20px",
+                    "xs": "4px",
+                    "sm": "12px",
+                    "lg": "24px",
+                    "base": "8px",
+                    "gutter": "16px"
+            },
+            "fontFamily": {
+                    "body-md": ["Public Sans"],
+                    "headline-lg": ["Public Sans"],
+                    "headline-md": ["Public Sans"],
+                    "label-lg": ["Public Sans"],
+                    "display": ["Public Sans"],
+                    "label-sm": ["Public Sans"],
+                    "body-lg": ["Public Sans"]
+            },
+            "fontSize": {
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "headline-lg": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "headline-md": ["20px", {"lineHeight": "28px", "fontWeight": "600"}],
+                    "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600"}],
+                    "display": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .soft-elevation {
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.04);
+        }
+        .premium-shadow {
+            box-shadow: 0px 8px 20px rgba(31, 16, 142, 0.08);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background font-body-md min-h-screen pb-32">
+<!-- TopAppBar -->
+<header class="w-full top-0 sticky z-50 bg-surface/80 backdrop-blur-md">
+<div class="flex justify-between items-center px-margin-mobile py-base w-full max-w-7xl mx-auto">
+<div class="flex items-center gap-sm">
+<img alt="shopkeeper profile" class="w-10 h-10 rounded-full border-2 border-primary-fixed" data-alt="A professional headshot of a friendly South Asian shopkeeper wearing a clean, modern Nehru vest, set against a blurred background of a neatly organized small business. The lighting is soft and natural, emphasizing a trustworthy and professional persona in a bright, modern corporate style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuARfeMyMtJfd-_HcI93J1LP9M3YjdpbAXdlb9rerrV1ke4FSFZuC_0N-1k6Nb6mNqSdjovUin_lGvZRh-yvRQwC2AnD2hzgVdTLdTQxUSozItU98IG9gcbGgeMqB0nqlW2xp4qYsvJSQU2ryqr_1c0WWsn1vHizhgtaTfcZQKttqHsTqcnY3MG30jW-tcO5PWs_l2MUNRThFmHqmDbuy7cqN6gDUD4q-W9ENZELXo1bePTyRuFL3QVGqaZ1oj79j1_AN9rOjpf3Kfaf"/>
+<h1 class="text-headline-md font-display text-primary">Grama-Khata</h1>
+</div>
+<button class="text-primary hover:opacity-80 transition-opacity active:scale-95 transition-transform duration-200">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+</button>
+</div>
+</header>
+<main class="px-margin-mobile max-w-2xl mx-auto pt-lg">
+<!-- Hero Profile Section -->
+<section class="mb-xl">
+<div class="bg-gradient-to-br from-primary to-secondary p-lg rounded-xl text-on-primary premium-shadow flex items-center justify-between">
+<div>
+<h2 class="text-headline-lg font-headline-lg mb-xs">Sri Manjunatha Stores</h2>
+<p class="text-body-md opacity-90 flex items-center gap-xs">
+<span class="material-symbols-outlined text-[18px]" data-icon="location_on">location_on</span>
+                        Hassan, Karnataka
+                    </p>
+<div class="mt-md inline-flex items-center gap-xs bg-white/20 backdrop-blur-sm px-sm py-xs rounded-full">
+<span class="material-symbols-outlined text-[16px]" data-weight="fill" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span class="text-label-sm">Premium Merchant</span>
+</div>
+</div>
+<div class="hidden sm:block">
+<img alt="Store Icon" class="w-20 h-20 opacity-20" data-alt="A stylized, minimalist icon representing a modern local storefront. The graphic uses clean geometric lines and is presented as a subtle watermark style with a soft white glow, fitting into a high-end financial application's aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCx6ue3w9P-W91KlU0TNGzYoa5LgAHxqFzRpS0xRMl5PPH601MK1gJ7syBovpoaSSPJ_iuOunf2KDIdcz6HzMv1D-PQsXFCtyqqP1DUQuyk7NVByUwcCDVUWmnx9jlGiKRpiTYK0ddWGZOVcSmcIN-DDny7isejKbwMW33VntESRxph51eIE1DOhJi4fjPfAaCC5x2T4bYAenMSDV4AtRuVHjr98wtcrlcDClD6mukYx1ejFGZ5cJorSz-KcK-601kteqsi3nI0uJkT"/>
+</div>
+</div>
+</section>
+<!-- Settings Categories -->
+<section class="space-y-md">
+<h3 class="text-label-lg text-outline mb-sm px-xs uppercase tracking-wider">Account &amp; Business</h3>
+<div class="bg-surface soft-elevation rounded-xl overflow-hidden">
+<!-- Business Profile -->
+<button class="w-full flex items-center justify-between p-md hover:bg-surface-container-high transition-colors active:scale-[0.99] transition-transform">
+<div class="flex items-center gap-md">
+<div class="w-10 h-10 rounded-lg bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined" data-icon="store">store</span>
+</div>
+<div class="text-left">
+<span class="font-headline-md text-on-surface block">Business Profile</span>
+<span class="text-label-sm text-on-surface-variant">Update shop details &amp; contact info</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline" data-icon="chevron_right">chevron_right</span>
+</button>
+<div class="h-[1px] bg-surface-container-highest mx-md"></div>
+<!-- Backup & Restore -->
+<button class="w-full flex items-center justify-between p-md hover:bg-surface-container-high transition-colors active:scale-[0.99] transition-transform">
+<div class="flex items-center gap-md">
+<div class="w-10 h-10 rounded-lg bg-secondary-fixed flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined" data-icon="cloud_sync">cloud_sync</span>
+</div>
+<div class="text-left">
+<span class="font-headline-md text-on-surface block">Backup &amp; Restore</span>
+<span class="text-label-sm text-on-surface-variant">Last synced: 2 hours ago</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline" data-icon="chevron_right">chevron_right</span>
+</button>
+</div>
+<h3 class="text-label-lg text-outline mt-xl mb-sm px-xs uppercase tracking-wider">Preferences</h3>
+<div class="bg-surface soft-elevation rounded-xl overflow-hidden">
+<!-- Language -->
+<button class="w-full flex items-center justify-between p-md hover:bg-surface-container-high transition-colors active:scale-[0.99] transition-transform">
+<div class="flex items-center gap-md">
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest flex items-center justify-center text-on-surface-variant">
+<span class="material-symbols-outlined" data-icon="translate">translate</span>
+</div>
+<div class="text-left">
+<span class="font-headline-md text-on-surface block">Language (Bhasha)</span>
+<span class="text-label-sm text-on-surface-variant">English, ಕನ್ನಡ, हिन्दी</span>
+</div>
+</div>
+<div class="flex items-center gap-xs">
+<span class="text-label-lg text-primary font-bold">English</span>
+<span class="material-symbols-outlined text-outline" data-icon="expand_more">expand_more</span>
+</div>
+</button>
+<div class="h-[1px] bg-surface-container-highest mx-md"></div>
+<!-- Security -->
+<button class="w-full flex items-center justify-between p-md hover:bg-surface-container-high transition-colors active:scale-[0.99] transition-transform">
+<div class="flex items-center gap-md">
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest flex items-center justify-center text-on-surface-variant">
+<span class="material-symbols-outlined" data-icon="security">security</span>
+</div>
+<div class="text-left">
+<span class="font-headline-md text-on-surface block">Security</span>
+<span class="text-label-sm text-on-surface-variant">App lock, Biometrics, PIN</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline" data-icon="chevron_right">chevron_right</span>
+</button>
+</div>
+<h3 class="text-label-lg text-outline mt-xl mb-sm px-xs uppercase tracking-wider">Support</h3>
+<div class="bg-surface soft-elevation rounded-xl overflow-hidden">
+<!-- Help & Support -->
+<button class="w-full flex items-center justify-between p-md hover:bg-surface-container-high transition-colors active:scale-[0.99] transition-transform">
+<div class="flex items-center gap-md">
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest flex items-center justify-center text-on-surface-variant">
+<span class="material-symbols-outlined" data-icon="help">help</span>
+</div>
+<div class="text-left">
+<span class="font-headline-md text-on-surface block">Help &amp; Support</span>
+<span class="text-label-sm text-on-surface-variant">FAQs, Contact us, Tutorials</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline" data-icon="chevron_right">chevron_right</span>
+</button>
+</div>
+<!-- Danger Zone / Sign Out -->
+<button class="w-full mt-xl flex items-center justify-center gap-sm p-md rounded-xl text-error bg-error-container/30 hover:bg-error-container/50 transition-colors active:scale-95 transition-transform">
+<span class="material-symbols-outlined" data-icon="logout">logout</span>
+<span class="font-label-lg">Sign Out of Grama-Khata</span>
+</button>
+<div class="text-center mt-xl mb-lg">
+<p class="text-label-sm text-outline">v2.4.0 • Made with ❤️ for Local Businesses</p>
+</div>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-center px-base pb-6 pt-2 bg-surface shadow-[0px_-2px_10px_rgba(0,0,0,0.04)] z-50 rounded-t-xl">
+<a class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:bg-surface-container-high transition-colors active:scale-90 transition-transform duration-150" href="#">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+<span class="text-label-sm font-label-sm">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:bg-surface-container-high transition-colors active:scale-90 transition-transform duration-150" href="#">
+<span class="material-symbols-outlined" data-icon="group">group</span>
+<span class="text-label-sm font-label-sm">Customers</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:bg-surface-container-high transition-colors active:scale-90 transition-transform duration-150" href="#">
+<span class="material-symbols-outlined text-primary" data-icon="add_circle">add_circle</span>
+<span class="text-label-sm font-label-sm text-primary">Add</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:bg-surface-container-high transition-colors active:scale-90 transition-transform duration-150" href="#">
+<span class="material-symbols-outlined" data-icon="analytics">analytics</span>
+<span class="text-label-sm font-label-sm">Reports</span>
+</a>
+<!-- Active State: Settings -->
+<a class="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-full px-4 py-1 active:scale-90 transition-transform duration-150" href="#">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+<span class="text-label-sm font-label-sm">Settings</span>
+</a>
+</nav>
+</body></html>

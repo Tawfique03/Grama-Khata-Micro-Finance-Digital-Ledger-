@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Grama-Khata | Daily Report</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "inverse-primary": "#c3c0ff",
+                    "error": "#ba1a1a",
+                    "surface-container-lowest": "#ffffff",
+                    "secondary": "#4648d4",
+                    "tertiary-fixed-dim": "#ffb694",
+                    "primary": "#1f108e",
+                    "on-error-container": "#93000a",
+                    "surface": "#fcf8ff",
+                    "outline": "#777584",
+                    "surface-bright": "#fcf8ff",
+                    "on-tertiary-fixed-variant": "#7a3003",
+                    "surface-tint": "#544fc0",
+                    "on-surface-variant": "#464553",
+                    "surface-container-highest": "#e4e1eb",
+                    "surface-container-low": "#f6f2fc",
+                    "surface-dim": "#dcd8e3",
+                    "on-secondary-fixed-variant": "#2f2ebe",
+                    "on-secondary": "#ffffff",
+                    "on-secondary-container": "#fffbff",
+                    "on-secondary-fixed": "#07006c",
+                    "on-primary-container": "#a9a7ff",
+                    "inverse-surface": "#303037",
+                    "secondary-fixed-dim": "#c0c1ff",
+                    "tertiary-container": "#752c00",
+                    "on-primary-fixed-variant": "#3b35a7",
+                    "on-tertiary-container": "#fe9562",
+                    "tertiary": "#511c00",
+                    "surface-variant": "#e4e1eb",
+                    "on-surface": "#1b1b22",
+                    "secondary-container": "#6063ee",
+                    "on-tertiary": "#ffffff",
+                    "primary-fixed": "#e2dfff",
+                    "inverse-on-surface": "#f3eff9",
+                    "primary-container": "#3730a3",
+                    "tertiary-fixed": "#ffdbcc",
+                    "surface-container-high": "#eae6f1",
+                    "outline-variant": "#c8c4d5",
+                    "primary-fixed-dim": "#c3c0ff",
+                    "on-primary": "#ffffff",
+                    "error-container": "#ffdad6",
+                    "background": "#fcf8ff",
+                    "on-tertiary-fixed": "#351000",
+                    "surface-container": "#f0ecf6",
+                    "secondary-fixed": "#e1e0ff",
+                    "on-background": "#1b1b22",
+                    "on-primary-fixed": "#0f0069",
+                    "on-error": "#ffffff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "xl": "32px",
+                    "md": "16px",
+                    "margin-mobile": "20px",
+                    "xs": "4px",
+                    "sm": "12px",
+                    "lg": "24px",
+                    "base": "8px",
+                    "gutter": "16px"
+            },
+            "fontFamily": {
+                    "body-md": ["Public Sans"],
+                    "headline-lg": ["Public Sans"],
+                    "headline-md": ["Public Sans"],
+                    "label-lg": ["Public Sans"],
+                    "display": ["Public Sans"],
+                    "label-sm": ["Public Sans"],
+                    "body-lg": ["Public Sans"]
+            },
+            "fontSize": {
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "headline-lg": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "headline-md": ["20px", {"lineHeight": "28px", "fontWeight": "600"}],
+                    "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600"}],
+                    "display": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body {
+            background-color: #fcf8ff;
+            color: #1b1b22;
+            font-family: 'Public Sans', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+        .surface-low {
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.04);
+        }
+        .overlay-high {
+            box-shadow: 0px 8px 20px rgba(31, 16, 142, 0.08);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background min-h-screen flex flex-col items-center">
+<!-- TopAppBar -->
+<header class="w-full top-0 sticky z-50 bg-surface/80 backdrop-blur-md">
+<div class="flex justify-between items-center px-margin-mobile py-base w-full max-w-7xl mx-auto">
+<div class="flex items-center gap-md">
+<div class="w-10 h-10 rounded-full overflow-hidden border-2 border-primary-fixed">
+<img alt="Shopkeeper Profile" class="w-full h-full object-cover" data-alt="A professional close-up portrait of a friendly shopkeeper in a modern retail setting. The lighting is soft and natural, emphasizing a trustworthy and approachable demeanor. The background features blurred shelves of a clean, organized boutique store, reflecting a professional business environment consistent with a premium financial app style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVZkZ-aqp9hEHOirW_vuJICjulcqw3CHoFovkfGi0uILXTzweEpEXdG3-y2W96xRn3PNf26mAGG8DJN00maKdBt8eL3WxlubCuijq5p9wtI40AQ9ZdCKR7q6xEy0MlAJOjY403S4vnzriKRjXYxajC6L-PU8eVY4Kkx5SGX8CUNfFlGm0AhiGddoIPFSmpR8EiBWuh7VphQhZbRLW3sJ5lX0SnV6CrjdS1In-fGm-hD4V4TAH1jfInWNUJr3mx4sx1dfxxTLw_vvuw"/>
+</div>
+<h1 class="text-headline-lg font-display text-primary">Grama-Khata</h1>
+</div>
+<div class="flex items-center gap-md">
+<button class="text-primary hover:opacity-80 transition-opacity active:scale-95 duration-200">
+<span class="material-symbols-outlined text-headline-md" data-icon="notifications">notifications</span>
+</button>
+</div>
+</div>
+</header>
+<main class="w-full max-w-7xl px-margin-mobile py-lg pb-32 flex flex-col gap-xl">
+<!-- Date Picker Selection Section -->
+<section class="flex items-center justify-between bg-surface-container-low rounded-xl p-md surface-low">
+<div class="flex flex-col">
+<span class="text-label-sm font-label-sm text-on-surface-variant uppercase tracking-wider">Viewing Report For</span>
+<span class="text-headline-md font-headline-md text-primary">October 24, 2023</span>
+</div>
+<button class="bg-secondary-container text-on-secondary-container px-md py-base rounded-lg flex items-center gap-xs font-label-lg text-label-lg active:scale-95 transition-transform">
+<span class="material-symbols-outlined" data-icon="calendar_today">calendar_today</span>
+                Change
+            </button>
+</section>
+<!-- Summary Hero Card -->
+<section class="bg-gradient-to-br from-primary to-secondary p-xl rounded-[2rem] text-white overlay-high flex flex-col gap-lg">
+<div class="flex justify-between items-start">
+<div>
+<h2 class="text-label-lg font-label-lg opacity-80 mb-base uppercase tracking-widest">Net Cash Flow</h2>
+<p class="text-display font-display">₹ 14,250.00</p>
+</div>
+<div class="bg-white/20 p-md rounded-2xl backdrop-blur-sm">
+<span class="material-symbols-outlined text-[32px]" data-icon="trending_up">trending_up</span>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-lg pt-lg border-t border-white/10">
+<div class="flex flex-col gap-xs">
+<div class="flex items-center gap-xs">
+<span class="material-symbols-outlined text-body-md text-tertiary-fixed" data-icon="arrow_upward">arrow_upward</span>
+<span class="text-label-sm font-label-sm text-white/70 uppercase">Payments Received</span>
+</div>
+<span class="text-headline-md font-headline-md">₹ 28,400</span>
+</div>
+<div class="flex flex-col gap-xs">
+<div class="flex items-center gap-xs">
+<span class="material-symbols-outlined text-body-md text-error-container" data-icon="arrow_downward">arrow_downward</span>
+<span class="text-label-sm font-label-sm text-white/70 uppercase">Credit Given</span>
+</div>
+<span class="text-headline-md font-headline-md">₹ 14,150</span>
+</div>
+</div>
+</section>
+<!-- Transaction List Section -->
+<section class="flex flex-col gap-md">
+<div class="flex justify-between items-center px-base">
+<h3 class="text-headline-md font-headline-md text-on-surface">Recent Activity</h3>
+<button class="text-primary font-label-lg text-label-lg hover:underline decoration-2 underline-offset-4">View All</button>
+</div>
+<div class="flex flex-col gap-sm">
+<!-- Transaction Item 1: Payment -->
+<div class="bg-surface surface-low p-md rounded-xl flex items-center justify-between border-l-4 border-emerald-500">
+<div class="flex items-center gap-md">
+<div class="w-12 h-12 rounded-full bg-emerald-50 flex items-center justify-center text-emerald-600">
+<span class="material-symbols-outlined" data-icon="account_balance_wallet">account_balance_wallet</span>
+</div>
+<div class="flex flex-col">
+<span class="text-label-lg font-label-lg text-on-surface">Ramesh Kumar</span>
+<span class="text-label-sm font-label-sm text-on-surface-variant">09:15 AM • UPI Payment</span>
+</div>
+</div>
+<div class="flex flex-col items-end">
+<span class="text-headline-md font-headline-md text-emerald-600">+ ₹ 1,200</span>
+<span class="px-sm py-xs bg-emerald-50 text-emerald-700 text-[10px] font-bold rounded-full uppercase tracking-tighter">Settled</span>
+</div>
+</div>
+<!-- Transaction Item 2: Credit -->
+<div class="bg-surface surface-low p-md rounded-xl flex items-center justify-between border-l-4 border-coral-500" style="border-color: #ff8a65;">
+<div class="flex items-center gap-md">
+<div class="w-12 h-12 rounded-full bg-orange-50 flex items-center justify-center text-orange-600">
+<span class="material-symbols-outlined" data-icon="shopping_cart">shopping_cart</span>
+</div>
+<div class="flex flex-col">
+<span class="text-label-lg font-label-lg text-on-surface">Suresh Patil</span>
+<span class="text-label-sm font-label-sm text-on-surface-variant">10:30 AM • Monthly Groceries</span>
+</div>
+</div>
+<div class="flex flex-col items-end">
+<span class="text-headline-md font-headline-md text-error">- ₹ 4,500</span>
+<span class="px-sm py-xs bg-error-container text-on-error-container text-[10px] font-bold rounded-full uppercase tracking-tighter">Due</span>
+</div>
+</div>
+<!-- Transaction Item 3: Payment -->
+<div class="bg-surface surface-low p-md rounded-xl flex items-center justify-between border-l-4 border-emerald-500">
+<div class="flex items-center gap-md">
+<div class="w-12 h-12 rounded-full bg-emerald-50 flex items-center justify-center text-emerald-600">
+<span class="material-symbols-outlined" data-icon="payments">payments</span>
+</div>
+<div class="flex flex-col">
+<span class="text-label-lg font-label-lg text-on-surface">Anita Devi</span>
+<span class="text-label-sm font-label-sm text-on-surface-variant">01:45 PM • Cash Received</span>
+</div>
+</div>
+<div class="flex flex-col items-end">
+<span class="text-headline-md font-headline-md text-emerald-600">+ ₹ 500</span>
+<span class="px-sm py-xs bg-emerald-50 text-emerald-700 text-[10px] font-bold rounded-full uppercase tracking-tighter">Settled</span>
+</div>
+</div>
+<!-- Transaction Item 4: Credit -->
+<div class="bg-surface surface-low p-md rounded-xl flex items-center justify-between border-l-4 border-coral-500" style="border-color: #ff8a65;">
+<div class="flex items-center gap-md">
+<div class="w-12 h-12 rounded-full bg-orange-50 flex items-center justify-center text-orange-600">
+<span class="material-symbols-outlined" data-icon="inventory_2">inventory_2</span>
+</div>
+<div class="flex flex-col">
+<span class="text-label-lg font-label-lg text-on-surface">Lokesh Hegde</span>
+<span class="text-label-sm font-label-sm text-on-surface-variant">04:20 PM • Bulk Supply Order</span>
+</div>
+</div>
+<div class="flex flex-col items-end">
+<span class="text-headline-md font-headline-md text-error">- ₹ 9,650</span>
+<span class="px-sm py-xs bg-error-container text-on-error-container text-[10px] font-bold rounded-full uppercase tracking-tighter">Due</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Insights Bento Section -->
+<section class="grid grid-cols-2 gap-md">
+<div class="col-span-1 bg-surface-container-high p-md rounded-3xl surface-low flex flex-col gap-sm">
+<span class="material-symbols-outlined text-primary" data-icon="group">group</span>
+<div>
+<p class="text-headline-md font-headline-md">12</p>
+<p class="text-label-sm font-label-sm text-on-surface-variant">Active Customers Today</p>
+</div>
+</div>
+<div class="col-span-1 bg-primary-container p-md rounded-3xl text-on-primary-container surface-low flex flex-col gap-sm">
+<span class="material-symbols-outlined" data-icon="auto_awesome">auto_awesome</span>
+<div>
+<p class="text-headline-md font-headline-md">85%</p>
+<p class="text-label-sm font-label-sm opacity-80">Payment Efficiency</p>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-center px-base pb-6 pt-2 bg-surface dark:bg-surface-container-low shadow-[0px_-2px_10px_rgba(0,0,0,0.04)] rounded-t-xl z-50">
+<a class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:bg-surface-container-high transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+<span class="text-label-sm font-label-sm">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:bg-surface-container-high transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="group">group</span>
+<span class="text-label-sm font-label-sm">Customers</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:bg-surface-container-high transition-colors" href="#">
+<span class="material-symbols-outlined text-[32px] text-primary" data-icon="add_circle">add_circle</span>
+<span class="text-label-sm font-label-sm">Add</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-full px-4 py-1 active:scale-90 transition-transform duration-150" href="#">
+<span class="material-symbols-outlined" data-icon="analytics" style="font-variation-settings: 'FILL' 1;">analytics</span>
+<span class="text-label-sm font-label-sm">Reports</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:bg-surface-container-high transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+<span class="text-label-sm font-label-sm">Settings</span>
+</a>
+</nav>
+</body></html>

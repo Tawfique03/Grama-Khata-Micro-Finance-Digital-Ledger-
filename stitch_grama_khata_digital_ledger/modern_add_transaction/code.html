@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+                  "on-surface-variant": "#464553",
+                  "on-secondary-fixed-variant": "#2f2ebe",
+                  "surface": "#fcf8ff",
+                  "primary-fixed": "#e2dfff",
+                  "on-primary-fixed": "#0f0069",
+                  "tertiary-container": "#752c00",
+                  "on-surface": "#1b1b22",
+                  "inverse-on-surface": "#f3eff9",
+                  "surface-bright": "#fcf8ff",
+                  "error-container": "#ffdad6",
+                  "surface-container-lowest": "#ffffff",
+                  "on-tertiary-fixed": "#351000",
+                  "surface-container-high": "#eae6f1",
+                  "on-primary-fixed-variant": "#3b35a7",
+                  "secondary-container": "#6063ee",
+                  "background": "#fcf8ff",
+                  "tertiary-fixed-dim": "#ffb694",
+                  "secondary-fixed-dim": "#c0c1ff",
+                  "primary-container": "#3730a3",
+                  "secondary-fixed": "#e1e0ff",
+                  "error": "#ba1a1a",
+                  "on-secondary-container": "#fffbff",
+                  "inverse-surface": "#303037",
+                  "on-primary": "#ffffff",
+                  "surface-container-low": "#f6f2fc",
+                  "on-tertiary": "#ffffff",
+                  "on-secondary-fixed": "#07006c",
+                  "tertiary": "#511c00",
+                  "on-tertiary-container": "#fe9562",
+                  "on-error": "#ffffff",
+                  "tertiary-fixed": "#ffdbcc",
+                  "on-background": "#1b1b22",
+                  "secondary": "#4648d4",
+                  "outline-variant": "#c8c4d5",
+                  "on-tertiary-fixed-variant": "#7a3003",
+                  "surface-container": "#f0ecf6",
+                  "surface-container-highest": "#e4e1eb",
+                  "surface-dim": "#dcd8e3",
+                  "surface-tint": "#544fc0",
+                  "inverse-primary": "#c3c0ff",
+                  "on-secondary": "#ffffff",
+                  "on-error-container": "#93000a",
+                  "primary-fixed-dim": "#c3c0ff",
+                  "on-primary-container": "#a9a7ff",
+                  "primary": "#1f108e",
+                  "outline": "#777584",
+                  "surface-variant": "#e4e1eb"
+          },
+          "borderRadius": {
+                  "DEFAULT": "0.25rem",
+                  "lg": "0.5rem",
+                  "xl": "0.75rem",
+                  "full": "9999px"
+          },
+          "spacing": {
+                  "gutter": "16px",
+                  "lg": "24px",
+                  "xs": "4px",
+                  "sm": "12px",
+                  "md": "16px",
+                  "base": "8px",
+                  "xl": "32px",
+                  "margin-mobile": "20px"
+          },
+          "fontFamily": {
+                  "label-sm": ["Public Sans"],
+                  "body-md": ["Public Sans"],
+                  "headline-md": ["Public Sans"],
+                  "body-lg": ["Public Sans"],
+                  "display": ["Public Sans"],
+                  "headline-lg": ["Public Sans"],
+                  "label-lg": ["Public Sans"]
+          },
+          "fontSize": {
+                  "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                  "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                  "headline-md": ["20px", {"lineHeight": "28px", "fontWeight": "600"}],
+                  "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                  "display": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                  "headline-lg": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                  "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600"}]
+          }
+        },
+      },
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+    .pulsate-glow {
+      box-shadow: 0 0 0 0 rgba(96, 99, 238, 0.4);
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(96, 99, 238, 0.7); }
+      70% { box-shadow: 0 0 0 20px rgba(96, 99, 238, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(96, 99, 238, 0); }
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background min-h-screen font-body-md">
+<header class="w-full top-0 sticky bg-surface/80 backdrop-blur-md z-40">
+<div class="flex justify-between items-center px-margin-mobile py-base w-full max-w-7xl mx-auto">
+<div class="flex items-center gap-md">
+<button class="active:scale-95 transition-transform duration-200">
+<span class="material-symbols-outlined text-primary" data-icon="close">close</span>
+</button>
+<span class="text-headline-md font-headline-md text-primary">New Entry</span>
+</div>
+<div class="flex items-center">
+<button class="bg-secondary-container text-on-secondary-container px-lg py-xs rounded-full font-label-lg active:scale-95 transition-transform">
+          Save
+        </button>
+</div>
+</div>
+</header>
+<main class="max-w-7xl mx-auto px-margin-mobile pt-xl pb-32">
+<div class="flex flex-col gap-xl">
+<section class="flex flex-col items-center justify-center py-xl">
+<div class="w-full max-w-md text-center">
+<label class="text-label-lg font-label-lg text-on-surface-variant block mb-base" for="amount-input">Enter Amount</label>
+<div class="relative group">
+<span class="absolute left-0 top-1/2 -translate-y-1/2 text-display font-display text-primary/40 px-md">₹</span>
+<input class="w-full bg-surface-container-low border-none focus:ring-2 focus:ring-secondary rounded-xl text-center py-xl text-display font-display text-primary placeholder:text-outline-variant" id="amount-input" placeholder="0.00" type="number"/>
+</div>
+</div>
+<div class="mt-xl flex flex-col items-center gap-md">
+<button class="pulsate-glow w-20 h-20 bg-secondary rounded-full flex items-center justify-center text-on-secondary active:scale-90 transition-transform duration-150 shadow-lg">
+<span class="material-symbols-outlined text-[32px]" data-icon="mic" data-weight="fill" style="font-variation-settings: 'FILL' 1;">mic</span>
+</button>
+<p class="text-label-sm font-label-sm text-outline">Tap to use voice</p>
+</div>
+</section>
+<section class="grid grid-cols-1 md:grid-cols-2 gap-lg">
+<div class="bg-surface-container-lowest p-lg rounded-xl shadow-[0px_2px_10px_rgba(0,0,0,0.04)]">
+<label class="text-label-lg font-label-lg text-on-surface-variant mb-base block">Customer</label>
+<div class="flex items-center gap-md p-md bg-surface-container-low rounded-lg group hover:bg-surface-container-high transition-colors cursor-pointer">
+<div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed font-headline-md">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+</div>
+<div class="flex-1">
+<p class="text-body-md font-label-lg text-on-surface">Select Customer</p>
+<p class="text-label-sm text-outline">Who is this transaction for?</p>
+</div>
+<span class="material-symbols-outlined text-outline" data-icon="chevron_right">chevron_right</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-lg rounded-xl shadow-[0px_2px_10px_rgba(0,0,0,0.04)]">
+<label class="text-label-lg font-label-lg text-on-surface-variant mb-base block">Type</label>
+<div class="grid grid-cols-2 gap-sm">
+<button class="flex items-center justify-center gap-base py-md rounded-lg bg-error-container text-on-error-container font-label-lg active:scale-95 transition-transform">
+<span class="material-symbols-outlined" data-icon="arrow_upward">arrow_upward</span>
+              Gave
+            </button>
+<button class="flex items-center justify-center gap-base py-md rounded-lg bg-primary-fixed text-on-primary-fixed font-label-lg active:scale-95 transition-transform">
+<span class="material-symbols-outlined" data-icon="arrow_downward">arrow_downward</span>
+              Got
+            </button>
+</div>
+</div>
+</section>
+<section class="bg-surface-container-lowest p-lg rounded-xl shadow-[0px_2px_10px_rgba(0,0,0,0.04)]">
+<label class="text-label-lg font-label-lg text-on-surface-variant mb-base block">Notes</label>
+<div class="relative">
+<textarea class="w-full bg-surface-container-low border-none focus:ring-2 focus:ring-secondary rounded-lg p-md text-body-md text-on-surface placeholder:text-outline" placeholder="Add items, bill numbers, or reminders..." rows="3"></textarea>
+<div class="absolute right-md bottom-md flex gap-sm">
+<button class="p-base rounded-full hover:bg-surface-container-high text-outline transition-colors">
+<span class="material-symbols-outlined" data-icon="attach_file">attach_file</span>
+</button>
+<button class="p-base rounded-full hover:bg-surface-container-high text-outline transition-colors">
+<span class="material-symbols-outlined" data-icon="photo_camera">photo_camera</span>
+</button>
+</div>
+</div>
+</section>
+<section class="flex flex-wrap gap-sm">
+<div class="px-md py-base bg-surface-container-high rounded-full flex items-center gap-xs cursor-pointer hover:bg-surface-container-highest transition-colors">
+<span class="material-symbols-outlined text-[18px]" data-icon="calendar_today">calendar_today</span>
+<span class="text-label-sm font-label-sm">Today, 14 Oct</span>
+</div>
+<div class="px-md py-base bg-surface-container-high rounded-full flex items-center gap-xs cursor-pointer hover:bg-surface-container-highest transition-colors">
+<span class="material-symbols-outlined text-[18px]" data-icon="tag">tag</span>
+<span class="text-label-sm font-label-sm">Add Category</span>
+</div>
+</section>
+</div>
+</main>
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-center px-base pb-6 pt-2 bg-surface shadow-[0px_-2px_10px_rgba(0,0,0,0.04)] z-50 rounded-t-xl md:hidden">
+<div class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:bg-surface-container-high transition-colors active:scale-90 duration-150">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+<span class="text-label-sm font-label-sm">Home</span>
+</div>
+<div class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:bg-surface-container-high transition-colors active:scale-90 duration-150">
+<span class="material-symbols-outlined" data-icon="group">group</span>
+<span class="text-label-sm font-label-sm">Customers</span>
+</div>
+<div class="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-full px-4 py-1 active:scale-90 transition-transform duration-150">
+<span class="material-symbols-outlined" data-icon="add_circle">add_circle</span>
+<span class="text-label-sm font-label-sm">Add</span>
+</div>
+<div class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:bg-surface-container-high transition-colors active:scale-90 duration-150">
+<span class="material-symbols-outlined" data-icon="analytics">analytics</span>
+<span class="text-label-sm font-label-sm">Reports</span>
+</div>
+<div class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:bg-surface-container-high transition-colors active:scale-90 duration-150">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+<span class="text-label-sm font-label-sm">Settings</span>
+</div>
+</nav>
+</body></html>

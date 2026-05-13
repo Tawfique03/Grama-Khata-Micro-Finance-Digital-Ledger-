@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="active_customers">सक्रिय ग्राहक</string>
+    <string name="add_customer">ग्राहक जोड़ें</string>
+    <string name="add_transaction">लेनदेन जोड़ें</string>
+    <string name="app_name">ग्राम खाता</string>
+    <string name="backup_restore">बैकअप और रिस्टोर</string>
+    <string name="language">भाषा</string>
+    <string name="nav_customers">ग्राहक</string>
+    <string name="nav_home">होम</string>
+    <string name="nav_reports">रिपोर्ट</string>
+    <string name="nav_settings">सेटिंग्स</string>
+    <string name="net_due">कुल देय</string>
+    <string name="pdf">पीडीएफ</string>
+    <string name="profile_settings">प्रोफ़ाइल सेटिंग्स</string>
+    <string name="quick_actions">त्वरित कार्रवाई</string>
+    <string name="recent_customers">हाल के ग्राहक</string>
+    <string name="recent_transactions">हाल के लेनदेन</string>
+    <string name="remind">याद दिलाएं</string>
+    <string name="todays_collection">आज की वसूली</string>
+    <string name="total_outstanding">कुल बकाया</string>
+    <string name="view_all">सभी देखें</string>
+    <string name="view_reports">रिपोर्ट देखें</string>
+</resources>

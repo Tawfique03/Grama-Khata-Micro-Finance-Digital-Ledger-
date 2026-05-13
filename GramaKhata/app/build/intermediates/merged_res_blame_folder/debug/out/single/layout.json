@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-mergeDebugResources-51:\\layout\\fragment_ledger.xml",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\layout\\fragment_ledger.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-mergeDebugResources-51:\\layout\\dialog_add_customer.xml",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\layout\\dialog_add_customer.xml"
+    },
+    {
+        "merged": "com.gramakhata.app-mergeDebugResources-51:/layout/fragment_dashboard.xml",
+        "source": "com.gramakhata.app-main-54:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-mergeDebugResources-51:\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-mergeDebugResources-51:\\layout\\item_transaction.xml",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\layout\\item_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-mergeDebugResources-51:\\layout\\fragment_customers.xml",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\layout\\fragment_customers.xml"
+    },
+    {
+        "merged": "com.gramakhata.app-mergeDebugResources-51:/layout/fragment_settings.xml",
+        "source": "com.gramakhata.app-main-54:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "com.gramakhata.app-mergeDebugResources-51:/layout/fragment_reports.xml",
+        "source": "com.gramakhata.app-main-54:/layout/fragment_reports.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-mergeDebugResources-51:\\layout\\item_customer.xml",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\layout\\item_customer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-mergeDebugResources-51:\\layout\\dialog_add_transaction.xml",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\layout\\dialog_add_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-mergeDebugResources-51:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-mergeDebugResources-51:\\layout\\fragment_reports.xml",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\layout\\fragment_reports.xml"
+    },
+    {
+        "merged": "com.gramakhata.app-mergeDebugResources-51:/layout/fragment_ledger.xml",
+        "source": "com.gramakhata.app-main-54:/layout/fragment_ledger.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-mergeDebugResources-51:\\layout\\fragment_settings.xml",
+        "source": "C:\\Users\\Tawfique Ur Rahaman\\.gradle\\daemon\\8.5\\com.gramakhata.app-main-54:\\layout\\fragment_settings.xml"
+    }
+]

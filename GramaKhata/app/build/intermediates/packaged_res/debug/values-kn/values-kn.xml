@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="active_customers">ಸಕ್ರಿಯ ಗ್ರಾಹಕರು</string>
+    <string name="add_customer">ಗ್ರಾಹಕರನ್ನು ಸೇರಿಸಿ</string>
+    <string name="add_transaction">ವ್ಯವಹಾರ ಸೇರಿಸಿ</string>
+    <string name="app_name">ಗ್ರಾಮ ಖಾತೆ</string>
+    <string name="backup_restore">ಬ್ಯಾಕಪ್ ಮತ್ತು ರಿಸ್ಟೋರ್</string>
+    <string name="language">ಭಾಷೆ</string>
+    <string name="nav_customers">ಗ್ರಾಹಕರು</string>
+    <string name="nav_home">ಹೋಮ್</string>
+    <string name="nav_reports">ವರದಿಗಳು</string>
+    <string name="nav_settings">ಸೆಟ್ಟಿಂಗ್ಸ್</string>
+    <string name="net_due">ಒಟ್ಟು ಬಾಕಿ</string>
+    <string name="pdf">ಪಿಡಿಎಫ್</string>
+    <string name="profile_settings">ಪ್ರೊಫೈಲ್ ಸೆಟ್ಟಿಂಗ್ಸ್</string>
+    <string name="quick_actions">ತ್ವರಿತ ಕ್ರಮಗಳು</string>
+    <string name="recent_customers">ಇತ್ತೀಚಿನ ಗ್ರಾಹಕರು</string>
+    <string name="recent_transactions">ಇತ್ತೀಚಿನ ವ್ಯವಹಾರಗಳು</string>
+    <string name="remind">ನೆನಪಿಸಿ</string>
+    <string name="todays_collection">ಇಂದಿನ ಸಂಗ್ರಹ</string>
+    <string name="total_outstanding">ಒಟ್ಟು ಬಾಕಿ</string>
+    <string name="view_all">ಎಲ್ಲವನ್ನೂ ನೋಡಿ</string>
+    <string name="view_reports">ವರದಿಗಳನ್ನು ನೋಡಿ</string>
+</resources>

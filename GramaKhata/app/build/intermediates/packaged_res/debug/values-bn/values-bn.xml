@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="active_customers">সক্রিয় গ্রাহক</string>
+    <string name="add_customer">গ্রাহক যোগ করুন</string>
+    <string name="add_transaction">লেনদেন যোগ করুন</string>
+    <string name="app_name">গ্রাম খাতা</string>
+    <string name="backup_restore">ব্যাকআপ এবং রিস্টোর</string>
+    <string name="language">ভাষা</string>
+    <string name="nav_customers">গ্রাহক</string>
+    <string name="nav_home">হোম</string>
+    <string name="nav_reports">রিপোর্ট</string>
+    <string name="nav_settings">সেটিংস</string>
+    <string name="net_due">মোট পাওনা</string>
+    <string name="pdf">পিডিএফ</string>
+    <string name="profile_settings">প্রোফাইল সেটিংস</string>
+    <string name="quick_actions">দ্রুত ব্যবস্থা</string>
+    <string name="recent_customers">সাম্প্রতিক গ্রাহক</string>
+    <string name="recent_transactions">সাম্প্রতিক লেনদেন</string>
+    <string name="remind">মনে করিয়ে দিন</string>
+    <string name="todays_collection">আজকের সংগ্রহ</string>
+    <string name="total_outstanding">মোট বকেয়া</string>
+    <string name="view_all">সব দেখুন</string>
+    <string name="view_reports">রিপোর্ট দেখুন</string>
+</resources>

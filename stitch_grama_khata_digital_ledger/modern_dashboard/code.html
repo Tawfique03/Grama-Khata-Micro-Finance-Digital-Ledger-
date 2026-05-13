@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Grama-Khata | Shop Dashboard</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-surface-variant": "#464553",
+                    "on-secondary-fixed-variant": "#2f2ebe",
+                    "surface": "#fcf8ff",
+                    "primary-fixed": "#e2dfff",
+                    "on-primary-fixed": "#0f0069",
+                    "tertiary-container": "#752c00",
+                    "on-surface": "#1b1b22",
+                    "inverse-on-surface": "#f3eff9",
+                    "surface-bright": "#fcf8ff",
+                    "error-container": "#ffdad6",
+                    "surface-container-lowest": "#ffffff",
+                    "on-tertiary-fixed": "#351000",
+                    "surface-container-high": "#eae6f1",
+                    "on-primary-fixed-variant": "#3b35a7",
+                    "secondary-container": "#6063ee",
+                    "background": "#fcf8ff",
+                    "tertiary-fixed-dim": "#ffb694",
+                    "secondary-fixed-dim": "#c0c1ff",
+                    "primary-container": "#3730a3",
+                    "secondary-fixed": "#e1e0ff",
+                    "error": "#ba1a1a",
+                    "on-secondary-container": "#fffbff",
+                    "inverse-surface": "#303037",
+                    "on-primary": "#ffffff",
+                    "surface-container-low": "#f6f2fc",
+                    "on-tertiary": "#ffffff",
+                    "on-secondary-fixed": "#07006c",
+                    "tertiary": "#511c00",
+                    "on-tertiary-container": "#fe9562",
+                    "on-error": "#ffffff",
+                    "tertiary-fixed": "#ffdbcc",
+                    "on-background": "#1b1b22",
+                    "secondary": "#4648d4",
+                    "outline-variant": "#c8c4d5",
+                    "on-tertiary-fixed-variant": "#7a3003",
+                    "surface-container": "#f0ecf6",
+                    "surface-container-highest": "#e4e1eb",
+                    "surface-dim": "#dcd8e3",
+                    "surface-tint": "#544fc0",
+                    "inverse-primary": "#c3c0ff",
+                    "on-secondary": "#ffffff",
+                    "on-error-container": "#93000a",
+                    "primary-fixed-dim": "#c3c0ff",
+                    "on-primary-container": "#a9a7ff",
+                    "primary": "#1f108e",
+                    "outline": "#777584",
+                    "surface-variant": "#e4e1eb"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "gutter": "16px",
+                    "lg": "24px",
+                    "xs": "4px",
+                    "sm": "12px",
+                    "md": "16px",
+                    "base": "8px",
+                    "xl": "32px",
+                    "margin-mobile": "20px"
+            },
+            "fontFamily": {
+                    "label-sm": ["Public Sans"],
+                    "body-md": ["Public Sans"],
+                    "headline-md": ["Public Sans"],
+                    "body-lg": ["Public Sans"],
+                    "display": ["Public Sans"],
+                    "headline-lg": ["Public Sans"],
+                    "label-lg": ["Public Sans"]
+            },
+            "fontSize": {
+                    "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "headline-md": ["20px", {"lineHeight": "28px", "fontWeight": "600"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                    "display": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "headline-lg": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Public Sans', sans-serif; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .shadow-low { shadow-[0px_2px_10px_rgba(0,0,0,0.04)] }
+        .shadow-high { shadow-[0px_8px_20px_rgba(63,53,167,0.08)] }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background min-h-screen pb-32">
+<!-- TopAppBar -->
+<header class="w-full top-0 sticky z-50 bg-surface/80 backdrop-blur-md">
+<div class="flex justify-between items-center px-margin-mobile py-base w-full max-w-7xl mx-auto">
+<div class="flex items-center gap-md">
+<div class="w-10 h-10 rounded-full overflow-hidden bg-primary-fixed flex items-center justify-center">
+<img alt="shopkeeper profile" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQO9bHCuk-yxfj_iC2uGzH8U4tG0Bl1edeCuJ6opboFYZENlqwsLa4Rfi9NUeyJi_LOEp-MGbnXE8lJ-aK6PXz3JfbG4Hbq0SC47_8tKmWdtlOvBNjaMnaI6gO7cX2o7Af1qDrcaqxaJ4Ng6uPmhfKDb71IuI6_24_be-V5CcgMPVANbCZTsdfYAoHerd7HMVtkwId3lDt0JHLfNU3vX3ZV7yh0MfyR_iSy7H8sQacX9HglTuMAhmK5qF-v-NxKnmv82gl8wShsqgz"/>
+</div>
+<h1 class="text-headline-lg font-display text-primary">Grama-Khata</h1>
+</div>
+<button class="active:scale-95 transition-transform duration-200 hover:opacity-80 transition-opacity">
+<span class="material-symbols-outlined text-primary" data-icon="notifications">notifications</span>
+</button>
+</div>
+</header>
+<main class="max-w-7xl mx-auto px-margin-mobile pt-lg space-y-xl">
+<!-- Hero: Balance Summary -->
+<section class="relative rounded-xl overflow-hidden bg-gradient-to-br from-primary to-secondary p-xl text-on-primary shadow-lg">
+<div class="flex flex-col gap-xs">
+<p class="font-label-lg text-label-lg opacity-80 uppercase tracking-wider">Total Outstanding Dues</p>
+<div class="flex items-end gap-sm">
+<h2 class="font-display text-[48px] leading-none">₹84,250.00</h2>
+<div class="flex items-center bg-white/20 px-2 py-0.5 rounded-full mb-1">
+<span class="material-symbols-outlined text-[18px]" data-icon="trending_up">trending_up</span>
+<span class="text-label-sm font-label-sm ml-1">4.2%</span>
+</div>
+</div>
+</div>
+<div class="mt-lg flex gap-md">
+<button class="flex-1 bg-white text-primary font-label-lg py-3 rounded-lg shadow-sm hover:bg-surface-bright transition-colors">
+                    Add Transaction
+                </button>
+<button class="flex-1 bg-white/10 text-white border border-white/20 font-label-lg py-3 rounded-lg hover:bg-white/20 transition-colors">
+                    View Reports
+                </button>
+</div>
+</section>
+<!-- Secondary Metrics: Bento Grid -->
+<section class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<!-- Today's Collection -->
+<div class="bg-surface-container-low p-lg rounded-xl shadow-[0px_2px_10px_rgba(0,0,0,0.04)] border border-outline-variant/30 flex items-center justify-between">
+<div>
+<p class="text-on-surface-variant font-label-lg mb-1">Today's Collection</p>
+<h3 class="text-headline-lg font-headline-lg text-on-surface">₹12,400</h3>
+</div>
+<div class="w-12 h-12 rounded-full bg-secondary-container/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-secondary" data-icon="payments">payments</span>
+</div>
+</div>
+<!-- Pending Reminders -->
+<div class="bg-surface-container-low p-lg rounded-xl shadow-[0px_2px_10px_rgba(0,0,0,0.04)] border border-outline-variant/30 flex items-center justify-between">
+<div>
+<p class="text-on-surface-variant font-label-lg mb-1">Pending Reminders</p>
+<h3 class="text-headline-lg font-headline-lg text-on-surface">18 Notices</h3>
+</div>
+<div class="w-12 h-12 rounded-full bg-tertiary-fixed-dim/20 flex items-center justify-center">
+<span class="material-symbols-outlined text-on-tertiary-fixed-variant" data-icon="schedule">schedule</span>
+</div>
+</div>
+</section>
+<!-- Recent Customers List -->
+<section class="space-y-md">
+<div class="flex justify-between items-center px-xs">
+<h3 class="text-headline-md font-headline-md text-on-surface">Recent Customers</h3>
+<button class="text-primary font-label-lg">View All</button>
+</div>
+<div class="space-y-sm">
+<!-- Customer Card 1 -->
+<div class="group flex items-center justify-between p-md bg-surface-container-lowest rounded-xl shadow-[0px_2px_10px_rgba(0,0,0,0.04)] hover:shadow-[0px_4px_12px_rgba(0,0,0,0.08)] transition-all cursor-pointer">
+<div class="flex items-center gap-md">
+<div class="w-12 h-12 rounded-full overflow-hidden bg-surface-container">
+<img alt="Customer Rajesh" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBcJIg8Dkm2QXoHEzxzyBayFG4IwM6VxrzdyLIWHuu5RO1ChGthKfTb6E9Tc951hvGzjBFt2DPBBWaaL_jVa1vBcxKVXwFzri2dPTnVEgpoDj_va11tyj4JPrq-iBdSLgKsM4cKSuy8piqVFzJeD4MfzKbssd-HA6uMK_s9U66COUDQYhhPjZSnuSSmKzi_UFtYZ8XD5tMilr8p9TUVwY6gYVTExg3hWZJp7vljHMgxmIuU9kDq_NkA0Qs_XZ84YwhfyndTkhAOqMMI"/>
+</div>
+<div>
+<p class="font-headline-md text-body-lg text-on-surface">Rajesh Kumar</p>
+<p class="text-label-sm font-label-sm text-outline">Last payment: 2 days ago</p>
+</div>
+</div>
+<div class="text-right">
+<p class="text-headline-md font-headline-md text-primary">₹4,200</p>
+<span class="text-[11px] font-label-sm px-2 py-0.5 rounded-full bg-error-container text-on-error-container uppercase tracking-tighter">Due</span>
+</div>
+</div>
+<!-- Customer Card 2 -->
+<div class="group flex items-center justify-between p-md bg-surface-container-lowest rounded-xl shadow-[0px_2px_10px_rgba(0,0,0,0.04)] hover:shadow-[0px_4px_12px_rgba(0,0,0,0.08)] transition-all cursor-pointer">
+<div class="flex items-center gap-md">
+<div class="w-12 h-12 rounded-full overflow-hidden bg-surface-container">
+<img alt="Customer Anita" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCGx0wdbeWSPOS6N1KUdItyZZb_ytI8R1wY_U590k9BxpisppQQNvNBJBNnmCyd00HvjjMphgFWtBODAmnYbSBeiVwupQ-jGQpLocEaP6JYfp22xiMiEf-5R2Hqkg9iL5OEvQ3uv9KT7DMPwLKu4EhgPW8QAfHw6AS1Ld3PhhXZk0uthPkhAXt5alJVXnZ4BzUcN7PJYPMP_ngvYa1IOgL6xT2txJUYaX6nJTMOdVN4SPozijlT693nkDDoc-ylRDD6ZdV38PznGCYF"/>
+</div>
+<div>
+<p class="font-headline-md text-body-lg text-on-surface">Anita Devi</p>
+<p class="text-label-sm font-label-sm text-outline">Last payment: Today</p>
+</div>
+</div>
+<div class="text-right">
+<p class="text-headline-md font-headline-md text-on-surface-variant">₹0</p>
+<span class="text-[11px] font-label-sm px-2 py-0.5 rounded-full bg-secondary-container/20 text-on-secondary-fixed-variant uppercase tracking-tighter">Settled</span>
+</div>
+</div>
+<!-- Customer Card 3 -->
+<div class="group flex items-center justify-between p-md bg-surface-container-lowest rounded-xl shadow-[0px_2px_10px_rgba(0,0,0,0.04)] hover:shadow-[0px_4px_12px_rgba(0,0,0,0.08)] transition-all cursor-pointer">
+<div class="flex items-center gap-md">
+<div class="w-12 h-12 rounded-full overflow-hidden bg-surface-container">
+<img alt="Customer Suresh" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKQFkg9b2ExhQQjrhSSUXEBK5O7L880RXLDFvxT_Tz6X2j2Na9qEad8e4UdxkTYtMmeJcIev4FxR91e8CwnKOdwbcazxYQ6qdocaNYcMWyDGR_ZNjBDgPMHHnfPqxYEorbHIUwEiKvoGY0MunAs1PrvtilLh6vUQLObVlAwgOtR7Axd2lOsWKBfajK-PBsZ7OhVeI_V8oIkBlmkaMHOVHzQl4RJTabUOApMAzjvIMieGZO3YGQqMiGYnBhzogP5rRQSDpi-wfW2w4t"/>
+</div>
+<div>
+<p class="font-headline-md text-body-lg text-on-surface">Suresh Prabhu</p>
+<p class="text-label-sm font-label-sm text-outline">Last payment: 1 week ago</p>
+</div>
+</div>
+<div class="text-right">
+<p class="text-headline-md font-headline-md text-primary">₹12,850</p>
+<span class="text-[11px] font-label-sm px-2 py-0.5 rounded-full bg-error-container text-on-error-container uppercase tracking-tighter">Overdue</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Floating Action Button -->
+<button class="fixed bottom-24 right-6 w-14 h-14 bg-primary text-on-primary rounded-2xl flex items-center justify-center shadow-[0px_8px_20px_rgba(63,53,167,0.3)] active:scale-90 transition-transform duration-150 z-50">
+<span class="material-symbols-outlined text-[32px]" data-icon="add">add</span>
+</button>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-center px-base pb-6 pt-2 bg-surface shadow-[0px_-2px_10px_rgba(0,0,0,0.04)] rounded-t-xl z-50">
+<!-- Home (Active) -->
+<a class="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-full px-4 py-1 active:scale-90 transition-transform duration-150" href="#">
+<span class="material-symbols-outlined" data-icon="home" style="font-variation-settings: 'FILL' 1;">home</span>
+<span class="text-label-sm font-label-sm mt-0.5">Home</span>
+</a>
+<!-- Customers -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:bg-surface-container-high transition-colors active:scale-90 duration-150" href="#">
+<span class="material-symbols-outlined" data-icon="group">group</span>
+<span class="text-label-sm font-label-sm mt-0.5">Customers</span>
+</a>
+<!-- Add (Visual placeholder, hidden in nav for layout consistency with JSON) -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:bg-surface-container-high transition-colors active:scale-90 duration-150" href="#">
+<span class="material-symbols-outlined" data-icon="add_circle">add_circle</span>
+<span class="text-label-sm font-label-sm mt-0.5">Add</span>
+</a>
+<!-- Reports -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:bg-surface-container-high transition-colors active:scale-90 duration-150" href="#">
+<span class="material-symbols-outlined" data-icon="analytics">analytics</span>
+<span class="text-label-sm font-label-sm mt-0.5">Reports</span>
+</a>
+<!-- Settings -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:bg-surface-container-high transition-colors active:scale-90 duration-150" href="#">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+<span class="text-label-sm font-label-sm mt-0.5">Settings</span>
+</a>
+</nav>
+</body></html>

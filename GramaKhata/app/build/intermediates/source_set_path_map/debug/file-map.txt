@@ -1,0 +1,55 @@
+com.gramakhata.app-jetified-emoji2-views-helper-1.2.0-0 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\1b7012b182a1ef52f3b11d4d3a6a35e1\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.gramakhata.app-jetified-core-ktx-1.12.0-1 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\1c36bdc9c430ff45f28009a386187d1d\transformed\jetified-core-ktx-1.12.0\res
+com.gramakhata.app-jetified-activity-ktx-1.8.0-2 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\1ff00e1a83bf2ddd3a1c308944db6093\transformed\jetified-activity-ktx-1.8.0\res
+com.gramakhata.app-slidingpanelayout-1.2.0-3 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\2521217cd89fa6adac91c4e3d9a4a384\transformed\slidingpanelayout-1.2.0\res
+com.gramakhata.app-recyclerview-1.1.0-4 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\271b11eed3e45b3aeef2dd605f1904b0\transformed\recyclerview-1.1.0\res
+com.gramakhata.app-navigation-fragment-2.7.7-5 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\2c529afe7a3f106f08339510db7ee6b1\transformed\navigation-fragment-2.7.7\res
+com.gramakhata.app-fragment-1.6.2-6 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\33336fc5ec226907470a5bb26dbb8c03\transformed\fragment-1.6.2\res
+com.gramakhata.app-jetified-emoji2-1.2.0-7 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\350ddbde4ef9421ce60b30517e634180\transformed\jetified-emoji2-1.2.0\res
+com.gramakhata.app-jetified-savedstate-ktx-1.2.1-8 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\3b57e9c89351bf32fa2f956fd7bb7717\transformed\jetified-savedstate-ktx-1.2.1\res
+com.gramakhata.app-material-1.11.0-9 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\43132ac9f1fa936c40a34dc009245ef4\transformed\material-1.11.0\res
+com.gramakhata.app-navigation-fragment-ktx-2.7.7-10 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\4b69356c1a2df886bc78a5947951c0a7\transformed\navigation-fragment-ktx-2.7.7\res
+com.gramakhata.app-jetified-savedstate-1.2.1-11 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\4e10eb1ba36ecf8916aeb81c45e1f340\transformed\jetified-savedstate-1.2.1\res
+com.gramakhata.app-constraintlayout-2.1.4-12 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\51dceb7231c0890405e161029c49f278\transformed\constraintlayout-2.1.4\res
+com.gramakhata.app-jetified-profileinstaller-1.3.0-13 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\5285cc985e464c2a3e4e35bf3f54f1be\transformed\jetified-profileinstaller-1.3.0\res
+com.gramakhata.app-jetified-window-1.0.0-14 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\558dc7dd526253a0e4d1870a2800534c\transformed\jetified-window-1.0.0\res
+com.gramakhata.app-drawerlayout-1.1.1-15 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\5ba726ea9d46e6b5c189d5bacc7f5715\transformed\drawerlayout-1.1.1\res
+com.gramakhata.app-core-1.12.0-16 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\5d2250d8f4822d93dfa151260c7f7f2c\transformed\core-1.12.0\res
+com.gramakhata.app-jetified-appcompat-resources-1.6.1-17 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\5e5deaa622d91e626b8125ebf7bb62c4\transformed\jetified-appcompat-resources-1.6.1\res
+com.gramakhata.app-jetified-fragment-ktx-1.6.2-18 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\62ce0dffb610797403ba305e72c5486b\transformed\jetified-fragment-ktx-1.6.2\res
+com.gramakhata.app-jetified-startup-runtime-1.1.1-19 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\62ec61cf00f38834dcd65eb8d47917fa\transformed\jetified-startup-runtime-1.1.1\res
+com.gramakhata.app-jetified-lifecycle-runtime-ktx-2.7.0-20 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\6c09b8c03c892bd870c77d41caac156e\transformed\jetified-lifecycle-runtime-ktx-2.7.0\res
+com.gramakhata.app-lifecycle-viewmodel-2.7.0-21 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\6f0dc7a75a52c6c5fb834bd4707c6363\transformed\lifecycle-viewmodel-2.7.0\res
+com.gramakhata.app-jetified-activity-1.8.0-22 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\771b26a6102e9303b740c9f77b25b90e\transformed\jetified-activity-1.8.0\res
+com.gramakhata.app-cardview-1.0.0-23 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\780644559bfb442bffe77650d414af18\transformed\cardview-1.0.0\res
+com.gramakhata.app-jetified-room-ktx-2.6.1-24 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\7a3952f8a5fd4fab94b0c131a29c4087\transformed\jetified-room-ktx-2.6.1\res
+com.gramakhata.app-navigation-common-ktx-2.7.7-25 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\7e4bd46235830ce5f4c1d9c8d4607c30\transformed\navigation-common-ktx-2.7.7\res
+com.gramakhata.app-core-runtime-2.2.0-26 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\80f5da65b461ba036fa5824d13a098f3\transformed\core-runtime-2.2.0\res
+com.gramakhata.app-room-runtime-2.6.1-27 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\81a55f45001d9fe5b321dc61d7aa312f\transformed\room-runtime-2.6.1\res
+com.gramakhata.app-jetified-lifecycle-viewmodel-savedstate-2.7.0-28 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\856bdc42b8edfde8fdc85e4f7d95839b\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\res
+com.gramakhata.app-navigation-common-2.7.7-29 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\870449fa119166cee963557a46a92a79\transformed\navigation-common-2.7.7\res
+com.gramakhata.app-jetified-viewpager2-1.0.0-30 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\a5bbeaa793231786898eb84efe29c116\transformed\jetified-viewpager2-1.0.0\res
+com.gramakhata.app-navigation-ui-ktx-2.7.7-31 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\a9516d750326945f0b37049b3bb27488\transformed\navigation-ui-ktx-2.7.7\res
+com.gramakhata.app-lifecycle-livedata-2.7.0-32 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\b3cb36ed25b5b45ab2c5792595344fce\transformed\lifecycle-livedata-2.7.0\res
+com.gramakhata.app-coordinatorlayout-1.1.0-33 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\b7d3eafe563191caa5545b260be27a45\transformed\coordinatorlayout-1.1.0\res
+com.gramakhata.app-jetified-annotation-experimental-1.3.0-34 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\c85c124414f8bd244ecd064b17367cd9\transformed\jetified-annotation-experimental-1.3.0\res
+com.gramakhata.app-jetified-lifecycle-viewmodel-ktx-2.7.0-35 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\cacf1675675d15783bb6f2d213c67ada\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\res
+com.gramakhata.app-navigation-runtime-2.7.7-36 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\d1856d11f7f222a964435618c0c1a84b\transformed\navigation-runtime-2.7.7\res
+com.gramakhata.app-appcompat-1.6.1-37 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\d3d14b2b71b474c740d197e7141be634\transformed\appcompat-1.6.1\res
+com.gramakhata.app-lifecycle-livedata-core-2.7.0-38 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\d9a45dd2b4e0194f30b94016bdd32d5b\transformed\lifecycle-livedata-core-2.7.0\res
+com.gramakhata.app-navigation-runtime-ktx-2.7.7-39 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\db02681d6d279868761c9506bb77d030\transformed\navigation-runtime-ktx-2.7.7\res
+com.gramakhata.app-navigation-ui-2.7.7-40 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\dfbea9fd2d212325630f1ba242767e10\transformed\navigation-ui-2.7.7\res
+com.gramakhata.app-lifecycle-runtime-2.7.0-41 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\e067c1e4d63c407cd8b636572978453f\transformed\lifecycle-runtime-2.7.0\res
+com.gramakhata.app-transition-1.4.1-42 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\ee0dbd25cf1d57372f982de08348f9dc\transformed\transition-1.4.1\res
+com.gramakhata.app-jetified-lifecycle-livedata-ktx-2.7.0-43 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\ee3a0aa54a1d1244aef036f015596e01\transformed\jetified-lifecycle-livedata-ktx-2.7.0\res
+com.gramakhata.app-jetified-lifecycle-livedata-core-ktx-2.7.0-44 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\ee617be70c96d36147e2cd7910905a68\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\res
+com.gramakhata.app-sqlite-framework-2.4.0-45 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\f68d73e03100afc34dec4537078a0f3c\transformed\sqlite-framework-2.4.0\res
+com.gramakhata.app-jetified-lifecycle-process-2.7.0-46 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\f6b2d5273af1bde981094ad65738cc50\transformed\jetified-lifecycle-process-2.7.0\res
+com.gramakhata.app-sqlite-2.4.0-47 C:\Users\Tawfique Ur Rahaman\.gradle\caches\transforms-3\ffb952ea49761f953f2af74eb7f53bce\transformed\sqlite-2.4.0\res
+com.gramakhata.app-pngs-48 C:\grama_khata_2.0\GramaKhata\app\build\generated\res\pngs\debug
+com.gramakhata.app-resValues-49 C:\grama_khata_2.0\GramaKhata\app\build\generated\res\resValues\debug
+com.gramakhata.app-packageDebugResources-50 C:\grama_khata_2.0\GramaKhata\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.gramakhata.app-packageDebugResources-51 C:\grama_khata_2.0\GramaKhata\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.gramakhata.app-merged_res-52 C:\grama_khata_2.0\GramaKhata\app\build\intermediates\merged_res\debug
+com.gramakhata.app-debug-53 C:\grama_khata_2.0\GramaKhata\app\src\debug\res
+com.gramakhata.app-main-54 C:\grama_khata_2.0\GramaKhata\app\src\main\res
